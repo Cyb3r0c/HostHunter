@@ -23,7 +23,7 @@ pip install cryptography scapy netifaces socket mac_vendor_lookup
     
 **************************************************************************
 [*] IP: 192.168.0.1      MAC: xx:xx:xx:xx:xx:xx
-[-] Vendor: BSkyB Ltd
+[-] Vendor: [VENDOR]
 [*] Linux System
 [!] Hostname>  [HOSTNAME]
 **************************************************************************
