@@ -40,7 +40,7 @@ def parse_network():
 
 
 
-
+# Identifies the MAC address
 
 def scan_network(network_segment):
     arp_request = scapy.ARP(pdst=network_segment)
@@ -103,10 +103,8 @@ def analyze_ttl(target_ip):
 
 
 
-####  MAIN  CODE STARTS #### 
 
-# Parses the network provided at the comand execution
-parse_net = parse_network()
+# Parses the network provided 
 
 hosts = scan_network(parse_net)
 
@@ -135,5 +133,4 @@ if default_gateway:
     print("[*]Default Gateway:", default_gateway)
 else:
     print("Default gateway not found.")
-for host in hosts:
-    print(f"{host['ip']}")
+
